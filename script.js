@@ -5,7 +5,7 @@ function hasKey(key) {
 	
 for(let i in sampleObject){
    
-    if(i.hasOwnproperty(key)) return true;
+    if(i.hasOwnProperty(key)) return true;
 }
 return false;
 }
